@@ -9,6 +9,15 @@ import UIKit
 
 class TriviaViewController: UIViewController {
 
+   
+    @IBOutlet weak var option1Label: UIButton!
+    
+    @IBOutlet weak var option2Label: UIButton!
+    
+    @IBOutlet weak var option3Label: UIButton!
+    
+    @IBOutlet weak var option4Label: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

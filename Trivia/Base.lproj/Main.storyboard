@@ -112,6 +112,12 @@
                             <constraint firstItem="mfS-lG-LMr" firstAttribute="top" secondItem="GPz-bL-ojp" secondAttribute="bottom" constant="10" id="uAF-uZ-40J"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="option1Label" destination="2nH-tA-Cvv" id="2YL-mS-he7"/>
+                        <outlet property="option2Label" destination="QcH-GW-bZT" id="h8f-45-Cyu"/>
+                        <outlet property="option3Label" destination="UXj-wu-uhi" id="sQy-ik-Kfu"/>
+                        <outlet property="option4Label" destination="1hd-kX-TK9" id="Zd9-vl-pN1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KIO-uf-63w" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
